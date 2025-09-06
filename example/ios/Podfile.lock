@@ -1,0 +1,43 @@
+PODS:
+  - EZAudioClone (0.1.7):
+    - EZAudioClone/Full (= 0.1.7)
+  - EZAudioClone/Core (0.1.7)
+  - EZAudioClone/Full (0.1.7):
+    - EZAudioClone/Core
+    - TPCircularBuffer (= 1.1)
+  - Flutter (1.0.0)
+  - flutter_audio_capture (1.1.4):
+    - Flutter
+  - pitch_detector_plus (0.0.1):
+    - EZAudioClone
+    - Flutter
+  - TPCircularBuffer (1.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_audio_capture (from `.symlinks/plugins/flutter_audio_capture/ios`)
+  - pitch_detector_plus (from `.symlinks/plugins/pitch_detector_plus/ios`)
+
+SPEC REPOS:
+  trunk:
+    - EZAudioClone
+    - TPCircularBuffer
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_audio_capture:
+    :path: ".symlinks/plugins/flutter_audio_capture/ios"
+  pitch_detector_plus:
+    :path: ".symlinks/plugins/pitch_detector_plus/ios"
+
+SPEC CHECKSUMS:
+  EZAudioClone: fbe2d0b850d4e92e6204df43ec42f594b4b05453
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_audio_capture: 093a201876b8065e425659d22e41d7a855fd19e7
+  pitch_detector_plus: ece2ad6959ceeea55a4f5d426ea910457617a99d
+  TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.11.3

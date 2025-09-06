@@ -1,0 +1,37 @@
+PODS:
+  - EZAudioClone (0.1.6):
+    - EZAudioClone/Full (= 0.1.6)
+  - EZAudioClone/Core (0.1.6)
+  - EZAudioClone/Full (0.1.6):
+    - EZAudioClone/Core
+    - TPCircularBuffer (= 1.1)
+  - FlutterMacOS (1.0.0)
+  - pitch_detector_plus (0.0.1):
+    - EZAudioClone
+    - FlutterMacOS
+  - TPCircularBuffer (1.1)
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - pitch_detector_plus (from `Flutter/ephemeral/.symlinks/plugins/pitch_detector_plus/macos`)
+
+SPEC REPOS:
+  trunk:
+    - EZAudioClone
+    - TPCircularBuffer
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  pitch_detector_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/pitch_detector_plus/macos
+
+SPEC CHECKSUMS:
+  EZAudioClone: e8a2c71e500600cf4cc7d4d5146725349f1e3bb5
+  FlutterMacOS: ae6af50a8ea7d6103d888583d46bd8328a7e9811
+  pitch_detector_plus: e8263cf4923644df0548218160cb18df9dd49a00
+  TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
+
+PODFILE CHECKSUM: 6eac6b3292e5142cfc23bdeb71848a40ec51c14c
+
+COCOAPODS: 1.11.3
